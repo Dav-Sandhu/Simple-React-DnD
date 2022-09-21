@@ -45,7 +45,6 @@ const ReactDND = ({items}) => {
         {items.map(i => {return(
           <li 
             key={i}
-            className={"li" + i.toString()}
 
             onDragStart={(e) => setDragEl(e.target)}
             onDragEnter={handleEnter}
