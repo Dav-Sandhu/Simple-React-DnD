@@ -1,8 +1,8 @@
 import {useState} from 'react'
 
-const ReactDND = ({items}) => {
+const ReactDND = ({list}) => {
 
-  const [items, setItems] = useState(items)
+  const [items, setItems] = useState(list)
   const [cur, setCur] = useState(null)
   const [dragEl, setDragEl] = useState(null)
 
