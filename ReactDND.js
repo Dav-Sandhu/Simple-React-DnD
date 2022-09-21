@@ -2,7 +2,7 @@ import {useState} from 'react'
 
 const ReactDND = ({items}) => {
 
-  const [items, setItems] = useState([1, 2, 3, 4])
+  const [items, setItems] = useState(items)
   const [cur, setCur] = useState(null)
   const [dragEl, setDragEl] = useState(null)
 
